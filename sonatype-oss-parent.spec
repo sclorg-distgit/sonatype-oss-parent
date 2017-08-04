@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}sonatype-oss-parent
 Version:        7
-Release:        12.1%{?dist}
+Release:        12.2%{?dist}
 Summary:        Sonatype OSS Parent
 
 License:        ASL 2.0
@@ -35,6 +35,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 7-12.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 7-12.1
 - Automated package import and SCL-ization
 
